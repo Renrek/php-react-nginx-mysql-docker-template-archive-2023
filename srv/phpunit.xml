@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit 
+    xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+    bootstrap = "bootstrap.php"
+    colors = "true"
+    defaultTestSuite="all"
+>
+    <testsuites>
+        <testsuite name="all">
+            <directory suffix="Test.php">app/tests</directory>
+        </testsuite>
+        <testsuite name="services">
+            <directory suffix="Test.php">app/tests/services</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

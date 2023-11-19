@@ -1,0 +1,9 @@
+{
+    "config": {
+        "vendor-dir": "app/libraries/vendors"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "vimeo/psalm": "^5.8"
+    }
+}
